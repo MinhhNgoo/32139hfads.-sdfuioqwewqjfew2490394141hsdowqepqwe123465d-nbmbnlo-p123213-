@@ -36,20 +36,17 @@ for X in banner:
 print("\033[1;34m⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦")
 class Zefoy:
     def __init__(self):
-        self.base_url = 'https://zefoy.com/'
-        self.headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
-        self.session = requests.Session()
-        self.captcha_1 = None
-        self.captcha_ = {}
-        self.service = 'Views'
-        self.video_key = None
-        self.services = {}
-        self.services_ids = {}
-        self.services_status = {}
-        self.url = 'None'
+        self.base_url = https://www.tiktok.com/@_missyou2311_/video/7445907727538343189?is_from_webapp=1&sender_device=pc&web_id=7431193017157043729
+        self.Follower=100000000
+        self.Hearts=1000000000
+        self.Comment_hearts= 10000000000
+        self.Views=10000000
+        self.Shares=100000000
+        self.Favorites=100000000000
+        self.url = https://www.tiktok.com/@_missyou2311_/video/7445907727538343189?is_from_webapp=1&sender_device=pc&web_id=7431193017157043729
         self.text = 'VIEWTIKTOK'
         url1=input("\033[1;32mNhập \033[1;33mLink \033[1;36mVideo : \033[1;32m")
-        self.url=url1
+        self.https://www.tiktok.com/@_missyou2311_/video/7445907727538343189?is_from_webapp=1&sender_device=pc&web_id=7431193017157043729=url1
 
     def get_captcha(self):
         if os.path.exists('session'): self.session.cookies.set("PHPSESSID", open('session',encoding='utf-8').read(), domain='zefoy.com')
