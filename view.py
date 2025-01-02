@@ -41,7 +41,7 @@ class Zefoy:
         self.session = requests.Session()
         self.captcha_1 = None
         self.captcha_ = {}
-        self.service = 'Views'
+        self.service = 'Views' 
         self.video_key = None
         self.services = {}
         self.services_ids = {}
