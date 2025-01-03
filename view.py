@@ -34,9 +34,9 @@ for X in banner:
   sys.stdout.write(X)
   sys.stdout.flush() 
 print("\033[1;34m⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦")
-class Zefoy:
+class :
     def __init__(self):
-        self.base_url = 'https://zefoy.com/'
+        self.base_url = ''
         self.headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
         self.session = requests.Session()
         self.captcha_1 = None
@@ -258,10 +258,11 @@ class Zefoy:
                 print(f'LỖI NGHIÊM TÚC | thử lại sau 10 giây.|| {e}');time.sleep(10)
                 time.sleep(0)
 	
-if __name__ == "__main__":
+if _name_ == "_main_":
 
     Z = Zefoy()
     threading.Thread(target=Z.check_config).start()
     threading.Thread(target=Z.update_name).start()
     Z.send_captcha()
     Z.run()
+www.tiktok.com
