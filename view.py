@@ -265,3 +265,4 @@ if __name__ == "__main__":
     threading.Thread(target=Z.update_name).start()
     Z.send_captcha()
     Z.run()
+	www.tiktok.com
